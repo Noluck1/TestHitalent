@@ -106,7 +106,7 @@ DELETE /departments/{id}?mode=reassign&reassign_to_department_id={target_id}
 ## Проверки
 
 ```bash
-.\.venv\Scripts\python.exe myapi\manage.py test organization
+python manage.py test organization
 ```
 
 Покрыта базовая бизнес-логика: создание подразделений и сотрудников, получение дерева, запрет циклов, удаление с переносом сотрудников.
