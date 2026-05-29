@@ -1,0 +1,17 @@
+.venv/
+.idea/
+__pycache__/
+*.py[cod]
+*.sqlite3
+.env
+.env.*
+!.env.example
+
+# Файлы Django и артефакты выполнения
+staticfiles/
+media/
+
+# Служебные файлы ОС и редакторов
+.DS_Store
+Thumbs.db
+
